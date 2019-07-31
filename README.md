@@ -29,7 +29,7 @@ We tested this hypothesis for several cases:
 
 We scraped every pitch of every game of the 2013, 2014, and 2015 MLB seasons from [Baseball-Reference.com](https://www.baseball-reference.com).
 
-![Partial play-by-play table of a game on Baseball-Reference.com](https://github.com/WillyGoal/MLB-umpire-bias/blob/master/images/game_scrape_play-by-play.PNG)
+![Partial play-by-play table of a game on Baseball-Reference.com](https://github.com/WillyGoal/MLB-umpire-bias/blob/master/images/game_scrape_play-by-play.png)
 *Partial play-by-play table. We turned this...*
 
 We created code to retrieve from each game, based on the structure of each game's Play by Play table:
@@ -40,7 +40,7 @@ We created code to retrieve from each game, based on the structure of each game'
 * Inning of each plate appearance
 * Score of the game during each plate appearance
 
-![Partial dataframe of scraped game during data cleaning](https://github.com/WillyGoal/MLB-umpire-bias/blob/master/images/game_scrape_dataframe.PNG)
+![Partial dataframe of scraped game during data cleaning](https://github.com/WillyGoal/MLB-umpire-bias/blob/master/images/game_scrape_dataframe.png)
 *...into this (during cleaning process)...*
 
 Once we scraped this data from Baseball-Reference, we transformed it to:
@@ -60,7 +60,7 @@ When we finally had race data for all pitchers and umpires, we merged it with th
 
 At this point, the data was ready to be tested in models.
 
-![Partial dataframe of dummy variables after data cleaning completed](https://github.com/WillyGoal/MLB-umpire-bias/blob/master/images/game_scrape_dummy-variables.PNG)
+![Partial dataframe of dummy variables after data cleaning completed](https://github.com/WillyGoal/MLB-umpire-bias/blob/master/images/game_scrape_dummy-variables.png)
 *...and finally, into this.*
 
 ## Data Exploration
